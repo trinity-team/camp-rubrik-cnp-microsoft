@@ -15,7 +15,7 @@ _Managed by: Cluster_Name_ - an SLA Domain that is created and managed locally o
 Above the Sla Domain list, click the blue **CREATE SLA DOMAIN** button.
 
 <p align="center">
-<img src="../../images/SLA Domains.png">
+<img src="../../images/Sla Domains.png">
 </p>
 
 Create an SLA Policy using the following configuration values:
