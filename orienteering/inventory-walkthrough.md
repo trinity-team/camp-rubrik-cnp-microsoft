@@ -27,7 +27,7 @@ Click on **Azure** to display the Azure VMs discovered in the existing subscript
 <img src="../images/Azure Inventory.png">
 </p>
 
-Use the **Resource Group** filter to filter the inventory down to the Resource Group whose containing your name contains your Oasis lab id. This id can be found inside the jumpbox credentials tray. In this guide we will be using `oasis-prod` as the lab id.
+Use the **Resource Group** filter to filter the inventory down to the `prod` Resource Group whose name contains your Oasis lab id. This id can be found inside the jumpbox credentials tray. In this guide we will be using `oasis` as the lab id.
 
 <p align="center">
 <img src="../images/Azure Inventory Filtered.png">
