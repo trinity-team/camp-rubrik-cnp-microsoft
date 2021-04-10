@@ -2,42 +2,53 @@
 
 To create an SLA Domain:
 
-On the left-hand navigation pane, select **SLA Domains &gt; Local Domains**.
+On the navigation bar at the top of the window, select **SLA Domains**.
 
 {% hint style="info" %}
 **Trail Map:**
 
-_Local Domain_ - an SLA Domain that is created on the local Rubrik cluster.
+_Managed by: GPS_ - an SLA Domain that is created and managed in Rubrik Polaris.
 
-_Remote Domain_ - an SLA Domain that was created on a Rubrik cluster other than the local Rubrik cluster. Remote SLA Domains appear on a local Rubrik cluster when the local Rubrik cluster is a replication target.
+_Managed by: Cluster_Name_ - an SLA Domain that is created and managed locally on a Rubrik Cloud Data Management (CDM) cluster.
 {% endhint %}
 
-In the upper right-hand corner, click the blue **+** icon.
+Above the Sla Domain list, click the blue **CREATE SLA DOMAIN** button.
 
 <p align="center">
-<img src="../../images/image10.png">
+<img src="../../images/SLA Domains.png">
 </p>
 
-Create an SLA Policy using the same configuration values demonstrated in the following image:
+Create an SLA Policy using the following configuration values:
+
+For demonstration purposes, select **EC2/EBS** and **Azure VM/Disk** then click **Next**.
 
 <p align="center">
-<img src="../../images/image11.png">
+<img src="../../images/SLA1.png">
 </p>
+
+Configure the SLA to take snapshots each hour for a day, and each day for a week then click **Next**.
+
+<p align="center">
+<img src="../../images/SLA2.png">
+</p>
+
 
 {% hint style="info" %}
-**Trail Map:** Continuous Data Protection enables you to protect your high value applications, running on vSphere, with near-zero RPOs. With CDP, you can recover from local or remote points in time with near zero RPOs for recovery from the latest point in time, or per-second granularity for recovery from historical points in time.
-{% endhint %}
+**Trail Map:** Rubrik's Cloud Native Protection allows you to build SLA Domains that can be used across public clouds and even hybrid deployments. Use a single policy to protect your mission critical workloads and ensure they are replicated to provide increased security and resiliency.
+{% endhint %}S
 
-Select **Next** to configure replication and archive in the Remote Settings portion of the SLA Domain.
+Select **Next** to configure replication in the SLA Domain. 
+
+Configure the SLA to replicate to US West (Oregon) in AWS and West US 2 in Azure.
 
 <p align="center">
-<img src="../../images/image12.png">
+<img src="../../images/SLA3.png">
 </p>
 
-Enable the **Archival** toggle and select `NFS:myarchive` from the dropdown box. Change **Retention On Brik** as 60 days. Note that the arrow keys can be used to fine-tune the amount of time specified. Press the **Next** button.
+Click **Next** and give the SLA a name that contains your lab id.
 
 <p align="center">
-<img src="../../images/image13.png">
+<img src="../../images/SLA4.png">
 </p>
 
 Review and then click **Create** to finish.

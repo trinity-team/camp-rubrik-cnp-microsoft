@@ -5,7 +5,7 @@
 ## Orienteering
 
 * [Objective: Create and Apply an SLA Domain](orienteering/objective-create-and-apply-an-sla-domain.md)
-* [Dashboard Walkthrough](orienteering/dashboard-walkthrough.md)
+* [Inventory Walkthrough](orienteering/inventory-walkthrough.md)
 * [SLA Domains](orienteering/sla-domains/README.md)
   * [Create an SLA Domain](orienteering/sla-domains/create-an-sla-domain.md)
   * [Apply an SLA Domain](orienteering/sla-domains/apply-an-sla-domain.md)
