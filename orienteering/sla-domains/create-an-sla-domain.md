@@ -12,7 +12,7 @@ _Managed by: GPS_ - an SLA Domain that is created and managed in Rubrik Polaris.
 _Managed by: Cluster_Name_ - an SLA Domain that is created and managed locally on a Rubrik Cloud Data Management (CDM) cluster.
 {% endhint %}
 
-Above the Sla Domain list, click the blue **CREATE SLA DOMAIN** button.
+Above the SLA Domain list, click the blue **Create SLA Domain** button.
 
 <p align="center">
 <img src="../../images/Sla Domains.png">

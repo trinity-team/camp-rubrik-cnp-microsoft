@@ -59,7 +59,7 @@ Click **Next**. Select the radio bubble next to the SLA Domain you created in th
 
 Click **Submit**, this creates the tag rule.
 
-Select **Virtual Machines/Managed Disks**. The VM inventory appears. Take note that the tag rule created in the last step has protected all but one of the VMs listed here.
+Select **Virtual Machines/Managed Disks**. The VM inventory appears. Take note that the tag rule created in the last step has protected all but one of the VMs listed here. The direct SLA Domain assignment on `your_lab_id-lin-vm-1` was created automatically when this lab was provisioned.
 
 {% hint style="info" %}
 **Trail Map:**
