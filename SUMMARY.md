@@ -19,10 +19,10 @@
 ## Exploration
 
 * [Objective: Work with Filesets and Snapshot Management](exploration/objective-work-with-filesets-and-snapshot-management.md)
-* [App Consistent Snapshots](exploration/rubrik-backup-service.md)
-* [Disk Exclusion](exploration/filesets.md)
-* [On Demand Snapshots](exploration/windows-volume-protection.md)
-* [Snapshot Management](exploration/snapshot-management.md)
+* [App Consistent Snapshots](exploration/app-consistency.md)
+* [Disk Exclusion](exploration/disk-exclusion.md)
+* [On Demand Snapshots](exploration/on-demand.md)
+* [Replication](exploration/replication.md)
 
 ## Signs, Signals & Code
 
