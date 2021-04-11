@@ -6,13 +6,13 @@ In your Chrome tab containing the Polaris console navigate to the **Overview** p
 <img src="../images/vm_overview.png">
 </p>
 
-Open the ellipsis (`...`) menu for the most recent snapshot and choose **Export**. The VM Restore context menu appears.
+Open the ellipsis (`...`) menu for the most recent snapshot and choose **Export**. The VM export context menu appears.
 
 <p align="center">
 <img src="../images/vm_export1.png">
 </p>
 
-Leave the default options as is and click **Export**. Once the VM export wizard appears enter the following parameters:
+Enter the following parameters for the export and click **Export**:
 
 * VM name: `your_lab_id-lim-vm-1-export`
 * Subscription: default
@@ -33,6 +33,12 @@ Leave the default options as is and click **Export**. Once the VM export wizard 
 </p>
 
 Click **Export**
+
+{% hint style="info" %}
+**Trail Map:**
+
+Exports are a useful tool for recovering or copying data to other subscriptions and regions. When executing an export, the user is able to select the subscription and region they'd like their new resource provsioned in. This can be extremely handy when used for copy data management purposes like copying a production sytem into QA for some upgrade testing!
+{% endhint %}
 
 Switch back to the Microsoft Azure Resource Manger console tab in Chrome. Search for the `dr` resource group containing you lab id and navigate to it.
 
