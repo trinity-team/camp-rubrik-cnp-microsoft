@@ -12,7 +12,7 @@ The Rubrik Backup Service software can be downloaded directly from Polaris, or t
 {% hint style="info" %}
 **Trail Map:**
 
-The Rubrik Backup Service software can only be used with the Polaris instance from which the software is obtained. Each Rubrik cluster generates a copy of the Rubrik Backup Service software that includes authentication and encryption information specific to that Rubrik cluster. This method ensures that the Rubrik cluster and a hosted deployment of the Rubrik Backup Service can reliably authenticate each other and encrypt data-in-flight
+The Rubrik Backup Service software can only be used with the Polaris instance from which the software is obtained. Each Polaris instance generates a copy of the Rubrik Backup Service software that includes authentication and encryption information specific to that Polaris deployment. This method ensures that Polaris and the Rubrik Backup Service can reliably authenticate each other and encrypt data-in-flight.
 {% endhint %}
 
 As necessary, Polaris automatically upgrades the Rubrik Backup Service software on all protected hosts. Upgrades do NOT require a reboot or a server restart.
