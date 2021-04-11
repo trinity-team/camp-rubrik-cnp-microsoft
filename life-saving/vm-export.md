@@ -12,7 +12,7 @@ Open the ellipsis (`...`) menu for the most recent snapshot and choose **Export*
 <img src="../images/vm_export1.png">
 </p>
 
-Enter the following parameters for the export and click **Export**:
+Enter the following parameters for the export:
 
 * VM name: `your_lab_id-lim-vm-1-export`
 * Subscription: default
