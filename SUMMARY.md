@@ -10,11 +10,6 @@
   * [Create an SLA Domain](orienteering/sla-domains/create-an-sla-domain.md)
   * [Apply an SLA Domain](orienteering/sla-domains/apply-an-sla-domain.md)
 
-## Search & Rescue
-
-* [Objective: Search and Recover Files](search-and-rescue/objective-search-and-recover-files.md)
-* [File Recovery](search-and-rescue/file-recovery.md)
-
 ## Life Saving
 
 * [Objective: Recover a VM](life-saving/objective-recover-a-vm.md)
@@ -29,33 +24,9 @@
 * [Windows Volume Protection](exploration/windows-volume-protection.md)
 * [Snapshot Management](exploration/snapshot-management.md)
 
-## Pioneering
-
-* [Objective: Manage Databases](pioneering/objective-manage-databases.md)
-* [SQL Live Mount](pioneering/sql-live-mount.md)
-* [Oracle](pioneering/oracle.md)
-
-## Nephology
-
-* [Objective: Unleash the Power of Hybrid Cloud](nephology/objective-unleash-the-power-of-hybrid-cloud.md)
-* [CloudOut](nephology/cloudout/README.md)
-  * [Adding a Cloud Archive Location](nephology/cloudout/adding-a-cloud-archive-location.md)
-* [CloudOn](nephology/cloudon/README.md)
-  * [Launch on Cloud](nephology/cloudon/launch-on-cloud.md)
-  * [Cloud Conversion](nephology/cloudon/cloud-conversion.md)
-* [Cloud-Native Protection](nephology/cloud-native-protection.md)
-
 ## Signs, Signals & Code
 
 * [Objective: Work with Envision Reporting, Activities, and Notifications](signs-signals-and-code/objective-work-with-envision-reporting-activities-and-notifications.md)
 * [System](signs-signals-and-code/system.md)
 * [Envision](signs-signals-and-code/envision.md)
 * [Activities & Notifications](signs-signals-and-code/activities-and-notifications.md)
-
-## API Weaving
-
-* [Objective: Explore Rubrik APIs](api-weaving/objective-explore-rubrik-apis.md)
-* [API Documentation](api-weaving/api-documentation.md)
-* [API Explorer](api-weaving/api-explorer.md)
-* [Use Cases](api-weaving/use-cases.md)
-
