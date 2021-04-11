@@ -18,7 +18,7 @@
 
 ## Exploration
 
-* [Objective: Work with Filesets and Snapshot Management](exploration/objective-work-with-filesets-and-snapshot-management.md)
+* [Objective: Dig Deeper Into Cloud Native Protection](exploration/objective-dig-deeper-into-cloud-native-protection.md)
 * [App Consistent Snapshots](exploration/app-consistency.md)
 * [Disk Exclusion](exploration/disk-exclusion.md)
 * [On Demand Snapshots](exploration/on-demand.md)
