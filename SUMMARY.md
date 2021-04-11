@@ -13,8 +13,8 @@
 ## Life Saving
 
 * [Objective: Recover a VM](life-saving/objective-recover-a-vm.md)
-* [VM Live Mount](life-saving/vm-live-mount.md)
-* [VMDK Live Mount](life-saving/vmdk-live-mount.md)
+* [VM Live Mount](life-saving/vm-restore.md)
+* [VMDK Live Mount](life-saving/vm-export.md)
 
 ## Exploration
 

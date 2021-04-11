@@ -2,25 +2,18 @@
 
 In this lab, you will perform the following tasks:
 
-* Live Mount a VM
-* Unmount a VM
-* Mount a VMDK
-* Unmount a VMDK
+* Restore a VM
+* Export a VM
 
-Rubrik radically simplifies the recovery process of virtual machines to deliver near-zero RTOs without additional storage provisioning. Quickly test upgrades or recover from ransomware without data loss.
+Rubrik radically simplifies the recovery process of virtual machines to deliver near-zero RTOs without additional manual intervention. Quickly test upgrades or recover from ransomware without data loss.
 
 ## Getting Started
-
-By serving as an online repository for VM data during the recovery process, Rubrik eliminates the requirement to transfer data before recovery can begin. Live Mount provides a near-zero Recovery Time Objective (RTO).
+Rubrik's Cloud Native Protection for Azure eliminates toil associated with protecting Azure VM workloads at scale. Polaris automates the protection VMs and replication of recovery points across regions in Microsoft Azure. Additionally, Polaris automates recovery operations allowing for full VM recovery in place, as well as across regions and subscriptions.
 
 {% hint style="info" %}
 **Trail Map:**
 
-_Recovery Time Objective_ - defines how long it takes to recover data, which can be a single file or a complete data center. This is sometimes referred to as "how long can you afford to have a system offline?"
+_Restore_ - Select a point in time and automatically roll an Azure VM back to a known good point in time, preserving its resourceId and private IP address. This operation ensures that disks are restored in a crash-consistent manner to the desired point in time, attached to the right mount points, and with the original tags, if desired.
 
-_Instant Recovery_ - replaces the source virtual machine with a fully functional point-in-time copy. The Rubrik cluster powers off and renames the source virtual machine and assigns the name of the source virtual machine to the recovered virtual machine. The recovered virtual machine is then powered on and the recovered virtual machine is connected to the source network. The Rubrik cluster is the datastore for the recovered virtual machine until it is Storage vMotioned to another datastore.
-
-_Live Mount_ - creates a new virtual machine from a point-in-time copy of the source virtual machine. The recovered virtual machine uses the Rubrik cluster as its datastore until it is Storage vMotioned to another datastore. The Rubrik cluster assigns a new name to the recovered virtual machine and powers it up. The source virtual machine runs in parallel.
-
-_Export_ - creates a new virtual machine from a point-in-time copy of the source virtual machine. The datastore of the selected Hyper-V host is the datastore for the recovered virtual machine. The Rubrik cluster assigns a new name to the recovered virtual machine and powers it up.
+_Export_ - Create a new Azure VM from the selected snapshot using either the original snapshot in the source region or a replica in another region. This workflow allows the user to define the VM name, type, size, subscription, resource group, region, VNet, subnet, and network security group. Tags that were on the source VM at the time of the snapshot can also be included or excluded from the export process.
 {% endhint %}
