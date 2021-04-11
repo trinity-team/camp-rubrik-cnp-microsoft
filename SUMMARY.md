@@ -14,7 +14,7 @@
 
 * [Objective: Recover a VM](life-saving/objective-recover-a-vm.md)
 * [VM Restore](life-saving/vm-restore.md)
-* [VMDK Export](life-saving/vm-export.md)
+* [VM Export](life-saving/vm-export.md)
 
 ## Exploration
 
