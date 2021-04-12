@@ -1,4 +1,4 @@
-# Objective: Work with Envision Reporting, Activities, and Notifications
+# Objective: Work with Events, Reporting, and Role Based Access Control
 
 In this lab, you will perform the following tasks:
 
