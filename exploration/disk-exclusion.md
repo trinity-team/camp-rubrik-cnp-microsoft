@@ -1,33 +1,21 @@
-# Snapshot Management
+# Disk Exclusion
 
-A data object, such as a snapshot or backup, is an unmanaged object when any of the following circumstances are true:
+Disk Exclusion allows the user to exclude data volumes from the backups Polaris creates when protecting Azure VMs. Once enabled for a specific volume, future snapshote of that VM will not contain the excluded volume unless the exclusion is removed.
 
-* Data source is no longer available to the Rubrik cluster.
-* Data source was removed from an SLA Domain and not added to another SLA Domain.
-* Data object was created on-demand and without a retention policy.
-* Data object is a replica that is no longer associated with the replication source.
-* Data object is an archival copy that was retrieved from an archival location.
+{% hint style="info" %}
+**Trail Map:**
 
-In each of these cases the data object does not have a retention policy to control the life of the data. Data objects without a retention policy are called unmanaged objects.
+Disk exclusion can prevent customers from incurring unnecessary costs when protecting certain types of VMs. As an example, imagine an application deployed to a VM that is backed up indepent of the VM itself. You still want to protect the application server, but capturing the data volumes housing the application data itself would be a waste of resources. Disk Exclusion allows you to achieve your objective in this scenario.
+{% endhint %}
 
-The Snapshot Management page may be used to initiate management tasks for unmanaged objects and consists of two levels: data source level and object level. The data source level provides information about the virtual machines, applications, and filesets that are the source of the unmanaged object data. The object level provides information about the individual unmanaged objects of a selected data source.
+## Configuring Disk Exclusion
 
-On the left-side menu, click **Snapshot Management**.
+Open the ellipsis (`...`) menu next to the **Manage Protection** button. Select the `Exclude Disks` menu item. The Exclude managed disks window appears.
 
-The data source level of the Snapshot Retention page appears.
+Here you can select managed disks to be excluded from any snapshotes created for this VM. If you hover over the **OS Disk** on this VM you will see that OS Disks cannot be excluded from VM level backups, only Data Disks can be excluded. 
 
 <p align="center">
-<img src="../images/image60.png">
+<img src="../images/exclude_disk.png">
 </p>
 
-In the **Name** column, select the name of a data source.
-
-The local host page or Recovery Points card page appears.
-
-<p align="center">
-<img src="../images/image61.png">
-</p>
-
-Tasks (such as Instant Restore, Live Mount, etc.) may be conducted with the data available through the Snapshots panel. Please do not conduct any tasks against an Unmanaged Object at this time.
-
-You have now completed the Exploration badge! Raise your hand so a Rubrik employee can get you the badge, answer any questions about this section, and give an overview of the next section.
+Click the `X` in the top right corner of the Exclude managed disks window to close it.
