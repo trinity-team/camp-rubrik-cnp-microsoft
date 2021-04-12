@@ -21,7 +21,7 @@ Select the following items in the Create role wizard: **Custom role** => **Data 
 The Create Data management role - by type window appears.
 
 <p align="center">
-<img src="../images/user_mgmt2.png">
+<img src="../images/user_mgmt3.png">
 </p>
 
 Select the **Azure native** radio button and use the pencil icons on the right hand side to explore the various source object, target object, and action constraints you can place on a user when protecting Azure workloads. 
