@@ -10,7 +10,7 @@ Rubrik's Polaris platform is a software as a service (SaaS) platform that organi
 
 ## Getting Started
 
-Once provisioned, the Polaris platform can be quickly configured to manage physical, virtual, and cloud data management workflows regardless of where your data resides. When protecting cloud workloads in Microsoft Azure, the user simply links polaris to their subscription(s) using a simple automated workflow that provisions all the privileges necessay for Polaris to protect the environment. This lab, an Azure subscription is already added and ready for protection. The diagram below depicts some of the protection workflows you will be configuring and interacting with today.
+Once provisioned, the Polaris platform can be quickly configured to manage physical, virtual, and cloud data management workflows regardless of where your data resides. When protecting cloud workloads in Microsoft Azure, the user simply links polaris to their subscription(s) using a simple automated workflow that provisions all the privileges necessary for Polaris to protect the environment. This lab, an Azure subscription is already added and ready for protection. The diagram below depicts some of the protection workflows you will be configuring and interacting with today.
 </br>
 </br>
 <center>
