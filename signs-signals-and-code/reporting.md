@@ -1,25 +1,23 @@
-# Activities & Notifications
+# Reporting
 
-The **Activity Log** and **Notifications** is where you can view and monitor the current state of time-sensitive tasks. This is useful to determine success, warning, and failures of any backup or archival related tasks within the Rubrik cluster.
+The Polaris reporting engine allows users to quickly generate various types of reports regading data management activities in their cloud environment. These reports can span workload types, clouds, and even hybrid architectures. Lets take a look at a complance report as an example. 
 
-In the top right hand bar of the Rubrik UI is the Activity Log world icon.
+## Complaince Report
 
-Click the world icon to see all task related activity in progress and completed on the cluster.
-
-<p align="center">
-<img src="../images/image93.png">
-</p>
-
-Click **See All** and it will take you to a page with only activity details.
-
-Select **Filter by type** and choose **Backup** to view only backup related tasks.
+On the navigation bar at the top of the window, select **Reports**. The Reports console is displayed. Select **Compliance** from the navigation bar on the left.
 
 <p align="center">
-<img src="../images/image94.png">
+<img src="../images/reports.png">
 </p>
 
-Scroll through and determine any recent warnings or failures that may require your attention.
+Select `Past 24 hours` from the Compliance Range filter on the left hand side of the console. Note the difference in the number of snapshots between the objects with different SLA Domains assigned.
 
-Take note of the status, name, message, and date/time stamp of any tasks that require further investigation.
+<p align="center">
+<img src="../images/reports2.png">
+</p>
 
-You have now completed the Signs, Signals & Codes badge!
+{% hint style="info" %}
+**Trail Map:**
+
+Reports in Polaris can be customized using a variety of parameters. They can also be scheduled, or consumed via the Polaris API. Regardless of the perspective you want or platform you want to view it on, Polaris has you covered! 
+{% endhint %}
