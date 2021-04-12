@@ -23,6 +23,8 @@
 * [Disk Exclusion](exploration/disk-exclusion.md)
 * [On Demand Snapshots](exploration/on-demand.md)
 * [Replication](exploration/replication.md)
+* [Managed Disk Protection ](exploration/managed-disk-protection.md)
+
 
 ## Signs, Signals & Code
 
