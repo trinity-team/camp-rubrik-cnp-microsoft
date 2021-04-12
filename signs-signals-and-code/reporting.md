@@ -10,7 +10,7 @@ On the navigation bar at the top of the window, select **Reports**. The Reports 
 <img src="../images/reports.png">
 </p>
 
-Select `Past 24 hours` from the Compliance Range filter on the left hand side of the console. Note the difference in the number of snapshots between the objects with different SLA Domains assigned.
+Open the **Compliance Status by Object** report and select `Past 24 hours` from the Compliance Range filter on the left hand side of the console. Note the difference in the number of snapshots between the objects with different SLA Domains assigned.
 
 <p align="center">
 <img src="../images/reports2.png">
