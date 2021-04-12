@@ -35,7 +35,7 @@ Configure the SLA to take snapshots each hour for a day, and each day for a week
 
 {% hint style="info" %}
 **Trail Map:** Rubrik's Cloud Native Protection allows you to build SLA Domains that can be used across public clouds and even hybrid deployments. Use a single policy to protect your mission critical workloads and ensure they are replicated to provide increased security and resiliency.
-{% endhint %}S
+{% endhint %}
 
 Select **Next** to configure replication in the SLA Domain. 
 
