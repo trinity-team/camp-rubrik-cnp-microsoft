@@ -10,7 +10,7 @@ Disk exclusion can prevent customers from incurring unnecessary costs when prote
 
 ## Configuring Disk Exclusion
 
-Open the ellipsis (`...`) menu next to the **Manage Protection** button. Select the `Exclude Disks` menu item. The Exclude managed disks window appears.
+Open the ellipsis (`...`) menu next to the **Manage Protection** button. Select the **Exclude Disk**` menu item. The Exclude managed disks window appears.
 
 Here you can select managed disks to be excluded from any snapshotes created for this VM. If you hover over the **OS Disk** on this VM you will see that OS Disks cannot be excluded from VM level backups, only Data Disks can be excluded. 
 

@@ -1,43 +1,25 @@
-# Filesets
+# On Demand Snapshots
 
-A fileset defines a set of files and folders on a Linux host, a Windows host, or a NAS share. The Rubrik cluster interprets a fileset based on the values provided in the Include, Exclude, and Do Not Exclude fields. The Rubrik cluster applies a set of rules to the values provided in these fields and permits several types of values to be added to the fields. The Rubrik cluster uses the filesets that are assigned to a host or share to determine which data to manage and protect.
+On Demand snapshots allow a user to create a snapshot at any point in time that is then retained until the customer explicitly deletes it. These snapshots can be useful for attaining a last known good backup prior to performing maintenance or upgrades on VMs or applictions. 
 
-To create a fileset:
+## Create an On Demand Snapshot
 
-In the Rubrik UI, on the left-side menu, click **Servers & Apps** > **Windows Hosts**. The Windows Hosts page appears.
+Open the ellipsis (`...`) menu next to the **Manage Protection** button. Select the **Take On demand Snapshot** menu item. The Take on demand snapshot window appears.
 
-Select **Filesets** and then **Add Fileset**.
-
-<p align="center">
-<img src="../images/image42.png">
+ <p align="center">
+<img src="../images/on_demand.png">
 </p>
 
-The Add Fileset dialog appears. Enter the following values:
+Click **Confirm** to create an on demand snapshot. Once the on-demand snapshot completes (you can check the events log for this vm to confirm) click into today's date on the calendar view and open the ellipsis (`...`) menu next to the most recent On Demand snapshot. Here you can see unlike scheduled snapshots, on demand snapshots can be deleted.
 
-* Fileset Name: `Camp Rubrik Fileset`
-* Include: `C:\Users\**`
-* Exclude: `C:\Users\AppData\**`
-
-The fileset should resemble the following image.
-
-<p align="center">
-<img src="../images/image43.png">
+ <p align="center">
+<img src="../images/on_demand2.png">
 </p>
 
-Click **Add**.
-
-Return to the **Windows Hosts** tab, select the `sql-s1` workload, and then choose **Manage Protection**.
+Select the **Delete** menu item, then confirm deletion by clicking the **Yes, Delete** button.
 
 <p align="center">
-<img src="../images/image44.png">
+<img src="../images/yes_delete.png">
 </p>
 
-Select **Filesets** as the Type and choose the `Camp Rubrik Fileset` created in a previous step.
-
-<p align="center">
-<img src="../images/image45.png">
-</p>
-
-Press **Next** and select the `Camp Rubrik` SLA Domain. Press **Finish**.
-
-A host or share can be paired with several different filesets, with each host fileset or share fileset protecting a different set of data. Each of the host filesets or share filesets can be assigned to a different SLA Domain, permitting different levels of protection for each set of data.
+The on demand snapshot is deleted.

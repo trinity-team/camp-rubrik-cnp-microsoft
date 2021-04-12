@@ -31,7 +31,7 @@ Click the **Gear Icon** and select **System Preferences**. The system preference
 
  From the **Inventory** window, select **Azure** then select **Virtual Machines/Managed Disks**. The VM inventory appears. Click the name of the VM whose VM name matches `your_lab_id-win-vm-1`. The VM Overview page appears.
 
- Open the ellipsis (`...`) menu next to the **Manage Protection** button. Hover over the `Register Rubrik backup service` menu item.
+ Open the ellipsis (`...`) menu next to the **Manage Protection** button. Hover over the **Register Rubrik backup service** menu item.
 
  <p align="center">
 <img src="../images/register_rbs.png">
