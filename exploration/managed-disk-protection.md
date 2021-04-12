@@ -12,6 +12,10 @@ Click the **Take on Demand Snapshot** button and confirm the action. Monitor the
 <img src="../images/managed_disk_snap_complete.png">
 </p>
 
-Once complete, open the export dialogue box to review the available export parameters for Managed Disk snapshots, then close the window.
+Once complete, open the export dialogue box to review the available export parameters for Managed Disk snapshots.
 
-Delete the On demand managed disk snapshot. You have now completed the Exploration badge!
+ <p align="center">
+<img src="../images/export_disk.png">
+</p>
+
+Close the export window, and delete the on demand managed disk snapshot. You have now completed the Exploration badge!
