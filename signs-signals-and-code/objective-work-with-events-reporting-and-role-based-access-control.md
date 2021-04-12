@@ -2,12 +2,12 @@
 
 In this lab, you will perform the following tasks:
 
-* Explore System Overview
-* Create a Custom Report
-* Filter the Activity Log and Notifications
+* Explore the Polaris Events log
+* Generate a Compliance Report
+* Understand Role Based Access Control
 
-Use Rubrik to stay informed and laser-focused on the horizon ahead when protecting your critical data.
+Use Polaris to stay informed and laser-focused on the horizon ahead when protecting your critical data.
 
 ## **Getting Started**
 
-Envision is Rubrik’s feature for custom reporting that is useful for day-to-day operations and management. System, Activities, and Notifications provide insight around specific tasks and management activities performed by the Rubrik cluster.
+Rubrik Polaris drives significant operational efficiencies with a single, easy-to-use solution for multi and hybrid-cloud data management.  In this section we will explore some of the tools that make data protection at scale in the cloud a breeze!

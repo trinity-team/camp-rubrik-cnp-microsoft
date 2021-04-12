@@ -29,6 +29,6 @@
 ## Signs, Signals & Code
 
 * [Objective: Work with Events, Reporting, and Role Based Access Control](signs-signals-and-code/objective-work-with-events-reporting-and-role-based-access-control.md)
-* [System](signs-signals-and-code/system.md)
-* [Envision](signs-signals-and-code/envision.md)
-* [Activities & Notifications](signs-signals-and-code/activities-and-notifications.md)
+* [Events](signs-signals-and-code/events.md)
+* [Reporting](signs-signals-and-code/reporting.md)
+* [Role Based Access Control](signs-signals-and-code/rbac.md)
